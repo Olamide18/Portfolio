@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Bitter', serif;
+}
+body{
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),rgb(76, 95, 86));
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.icon{
+    width: 60px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(233, 236, 240);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+span{
+    color: #392227;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #392227 ;
+    transition: .4s;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width:150px;
+    text-decoration:none;
+    display: inline-block;
+    padding: 12px 0;
+    color: black;
+    border:2px solid black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.banner-btn a span{
+    width:0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#2b313a;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width:100%;
+}
+.banner-btn a:hover{
+     color: black;
+}
+
+.form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.5),rgb(76, 95, 86));
+}
+.input-it{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+}
+.input-i{
+    height:150px;
+    border-radius: 20px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+}
+#footer{
+    position: relative;
+    color: rgb(30, 28, 28);
+}
+.footer-right{
+    text-align:left;
+    padding-left: 50px;
+}
